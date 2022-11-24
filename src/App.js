@@ -2,7 +2,10 @@ import styles from "./App.module.scss"
 function App() {
   return (
     <div className={styles.App}>
-      <p>Hello</p>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
     </div>
   );
 }
