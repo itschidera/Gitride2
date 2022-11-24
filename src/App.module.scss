@@ -2,7 +2,73 @@
 
 .App{
   background-color: $yellow;
-  p{
-    font-weight: $w3;
+  &_sectionTwo{
+    height: 1110px;
+    padding: 116px 304px 146px 294px;
+    background-color: $purple ;
+    &Header{
+      text-align: center;
+      h2{
+        font-size: 36px;
+        font-weight: $w3;
+        color: $white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        max-width: 614px;
+
+      }
+      p{
+        font-size: 20px;
+        font-weight: $w2;
+        color: $white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 61px;
+        max-width: 497px;
+      }
+    }
+    &Content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &>div>div:nth-child(1)>div:first-child{
+        background-color: $yellow;
+      }
+      &StepItem{
+        display: flex;
+        .indicator{
+          width: 59px;
+          height: 59px;
+          background-color: $grey6;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          p{
+            font-size: 14px;
+            font-weight: $w1;
+          }
+        }
+       
+        &Info{
+          margin-left: 31px;
+          h3{
+            font-size: 24px;
+            font-weight: $w3;
+            color: $white;
+            margin-bottom: 16px;
+          }
+          p{
+            font-size: 17.3px;
+            font-weight: $w1;
+            color: $white;
+            margin-bottom: 39px;
+          }
+        }
+       
+      }
+    }
   }
 }
