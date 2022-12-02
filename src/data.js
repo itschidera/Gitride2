@@ -1,3 +1,7 @@
+import Car from "./car.svg"
+import clock from "./clock.svg"
+import list from "./list.svg"
+import safety from "./safety.svg"
 export const stepData = [
     {
         title: "Enter location",
@@ -13,3 +17,34 @@ export const stepData = [
    
     }
 ];
+
+export const navData = [
+    "The App", "About Us", "Get in Touch"
+]
+
+export const bottomData= [
+    "privacy policy", "Terms and Conditions"
+]
+
+export const choices = [
+    {
+        icon: Car,
+        heading:"More choices", 
+        subHeading: "WhichRide lets you compare pricing across the major rideshares so you can save money on every ride."
+    },
+    {
+        icon: list,
+        heading: "More choices",
+        subHeading: "WhichRide lets you compare pricing across the major rideshares so you can save money on every ride."
+    },
+    {
+        icon: clock,
+        heading: "More choices",
+        subHeading: "WhichRide lets you compare pricing across the major rideshares so you can save money on every ride."
+    },
+    {
+        icon: safety,
+        heading: "Safety first",
+        subHeading: "WhichRide lets you compare pricing across the major rideshares so you can save money on every ride."
+    }
+]
